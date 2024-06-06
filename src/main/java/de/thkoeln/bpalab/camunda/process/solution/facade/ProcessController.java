@@ -1,8 +1,8 @@
-package org.example.camunda.process.solution.facade;
+package de.thkoeln.bpalab.camunda.process.solution.facade;
 
+import de.thkoeln.bpalab.camunda.process.solution.ProcessConstants;
+import de.thkoeln.bpalab.camunda.process.solution.ProcessVariables;
 import io.camunda.zeebe.client.ZeebeClient;
-import org.example.camunda.process.solution.ProcessConstants;
-import org.example.camunda.process.solution.ProcessVariables;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PathVariable;
